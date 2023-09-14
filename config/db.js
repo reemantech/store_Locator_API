@@ -11,6 +11,7 @@ const connectDB = async () =>{
     } catch (error) {
         console.error(error);
         process.hasUncaughtExceptionCaptureCallback(1);
+        // process.exit(1);
 
     }
 }
